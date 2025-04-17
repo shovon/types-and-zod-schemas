@@ -58,6 +58,6 @@ let validated: User;
 validated = User.parse(someData);
 ```
 
-The resulting code could come off as more expressive. I'm usually not a fan of abstractions, and I find consolidating the type `User` and the associated validator into a single type could be a form of abstraction, but it could also be argued that it doesn't abstract much, if anything, at all.
+The resulting code could come off as more expressive. I'm usually not a fan of abstractions, and I find consolidating the type `User` and the associated validator into a single name could be a form of abstraction, but it could also be argued that it doesn't abstract much, if anything, at all.
 
 Thoughts?
