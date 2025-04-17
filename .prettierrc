@@ -1,0 +1,31 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "tsconfig.json",
+        "package.json",
+        ".vscode/*.json",
+        ".prettierrc"
+      ],
+      "options": { "tabWidth": 2, "useTabs": false }
+    }
+  ],
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": true,
+  "semi": true,
+  "singleQuote": false,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "preserve",
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "requirePragma": false,
+  "insertPragma": false,
+  "proseWrap": "preserve",
+  "htmlWhitespaceSensitivity": "css",
+  "embeddedLanguageFormatting": "auto",
+  "singleAttributePerLine": false
+}
